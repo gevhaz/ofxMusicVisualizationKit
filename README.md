@@ -20,8 +20,9 @@ encounter any problems.
 
 I provide explanations for how to use the classes that come with the 
 plugin in the "Usage" section but the easiest way to get started is 
-probably to have a look at an example. It's really short, which is the 
-whole purpose of making this plugin.
+probably to have a look at [an 
+example](https://github.com/gevhaz/32_delete-forever). It's really 
+short, which is the whole purpose of making this plugin.
 
 # Compatibility
 
@@ -81,7 +82,7 @@ None other than a basic openFrameworks installation.
      as the fourth parameter would be:
 
      ```
-     vector<float> adjs { 0.524587, 0.113462, 0.0529223, 0.0135686 };
+     vector<float> adjs { 0.524587, 0.113462, 0.0529223 };
      ```
 
 3.  Call `analyze()` in `ofApp::update()`. E.g. if you named the 
