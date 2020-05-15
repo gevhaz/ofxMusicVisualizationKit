@@ -1,6 +1,6 @@
 # Description
 
-This plugin provides three classes to simplify music visualization with 
+This addon provides three classes to simplify music visualization with 
 shaders:
 
 * **ofxSoundAnalyzer** – Provides functions that return basic 
@@ -19,14 +19,14 @@ across it and want to use it, feel free to open an issue if you
 encounter any problems.
 
 I provide explanations for how to use the classes that come with the 
-plugin in the "Usage" section but the easiest way to get started is 
+addon in the "Usage" section but the easiest way to get started is 
 probably to have a look at [an 
 example](https://github.com/gevhaz/32_delete-forever). It's really 
-short, which is the whole purpose of making this plugin.
+short, which is the whole purpose of making this addon.
 
 # Compatibility
 
-Tested on OpenFrameworks version 0.11.0 for Linux.
+Tested on openFrameworks version 0.11.0 for Linux.
 
 # Dependencies
 
@@ -52,7 +52,7 @@ None other than a basic openFrameworks installation.
 2. Call the objects setup() function in ofApp::setup() and provide the 
    following parameters:
 
-   * Audiovolume (0.0–1.0)
+   * Audio volume (0.0–1.0)
    
    * Smoothing (0.0–1.0)
    
@@ -119,7 +119,7 @@ None other than a basic openFrameworks installation.
 2.  In `ofApp::setup()`, call `musicPlayer.setup(songpath, 
     audiovolume)`.
 
-3.  In `ofApp::keyPressed(int key)`, transmit the keycode to the 
+3.  In `ofApp::keyPressed(int key)`, transmit the key code to the 
     ofxMusicPlayer object's `keyPressed()` function: 
     `musicPlayer.keyPressed(key)`.
 
